@@ -1,5 +1,5 @@
 // @ts-check
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 test('Verify user can successfully Navigate to Login Page', async ({ page }) => {
   await page.goto('https://www.nordstrom.com/');

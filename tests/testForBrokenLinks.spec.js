@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 
 
-test('test', async ({ page }) => {
+test('Verify all links on amazon is working ', async ({ page }) => {
     await page.goto('https://insurancewebsitedemo.com/');
     await page.locator('.get-a-quote');
 
